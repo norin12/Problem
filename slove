@@ -1,0 +1,15 @@
+
+  
+  .hero-section {
+   
+    height: calc(100% - 80px); //change korchi akhane
+    
+    }
+    
+     nav {
+        height:80px
+     }
+     
+     header er total height chilo 100vh..nav er jonno height deya hyc 80px.akhn hero section er jonno height dite hobe...jehutu headerer total height
+     100vh tai total height theke nav er height ta minus kore hero-section k dite hobe..exmaple : 100vh - 80px..but avabe na likhe .hero-section k likhe dichi
+     calc(100% - 80px).mane parent element k vh diye height bole dite porer child element % diye prokas kora jay..
